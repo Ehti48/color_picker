@@ -1,0 +1,54 @@
+body{
+    padding: 30px;
+    display: grid;   
+    place-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+}
+
+code{
+    padding: 5px 8px;
+    border-radius: 18px;
+    background: #f8f9f9;
+    color:#cc0066 ;
+}
+
+[type='color'] {
+    appearance: none ;
+    padding: 0;
+    width: 20px;
+    height: 25px;
+    border: none;
+}
+
+[type='color']::webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+[type='color']::webkit-color-swatch{
+    border: none;
+}
+
+.color-picker{
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background: #f8f9f9;
+
+}
+
+.content{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.range{
+    display: flex;
+}
+
+/* @media(max-width:450px){
+
+    .content{
+        font-size: 1rem;
+    }
+} */
